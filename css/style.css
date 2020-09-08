@@ -187,7 +187,6 @@ margin-right: 20px;
 }
 
 .css-16f3y1r{
-    margin-right: 7px;
     color: #666;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     font-size: 0.875rem;
@@ -226,7 +225,9 @@ aside{
                 .css-5353 p{
                     font-size: 0.9rem;
                 }
-                
+                .css-5353 .css-16f3y1r{
+                    font-size: 0.9rem;
+                }
                 }
                 @media(min-width:870px){
                     .css-5353 p{
