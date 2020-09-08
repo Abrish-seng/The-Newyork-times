@@ -185,6 +185,19 @@ margin-right: 20px;
     font-style: normal;
     font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
+
+.css-16f3y1r{
+    margin-right: 7px;
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+
+}
+.css-cnj6d5{
+    color: #888;
+    font-size: 0.75rem;
+}
 @media(max-width:1024px){
 aside{
     display: none;
