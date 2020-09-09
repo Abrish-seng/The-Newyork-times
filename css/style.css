@@ -197,6 +197,35 @@ margin-right: 20px;
     color: #888;
     font-size: 0.75rem;
 }
+.css-158dogj a:hover{
+    text-decoration: none;
+}
+.comments ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.btn{
+    padding: 13px;
+    width: 270px;
+    background-color: rgb(86, 123, 149);
+    color: white;
+    border: hidden;
+    border-radius: 3px;
+}
+.comments li{
+    list-style-type: none;
+}
+.comments li a{
+    margin: auto 7px;
+    background: #E0E6EE ;
+    padding: 7px;
+    border-radius: 50%;
+    color: #333;
+}
+.comments li a:hover{
+    background-color: white;
+}
 @media(max-width:1024px){
 aside{
     display: none;
