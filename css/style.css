@@ -226,6 +226,13 @@ margin-right: 20px;
 .comments li a:hover{
     background-color: white;
 }
+.css-vy7nt4{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.css-vy7nt4 img{
+    width: 100%;
+}
 @media(max-width:1024px){
 aside{
     display: none;
