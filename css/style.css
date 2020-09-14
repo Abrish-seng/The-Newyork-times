@@ -3,7 +3,38 @@
     padding: 0;
     margin: 0;
 }
+.navbar-1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #999;
+    background: #666;
+    
+}
+.subscribe-btn{
+   width: 120px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: rgb(86, 123, 149);
+    border: hidden;
+    height: 30px;border-radius: 5px;
+}
+.login-btn{
+    font-size: 15px;
+    width: 70px;
+    height: 30px;
+    text-transform: uppercase;
+    background: rgb(86, 123, 149);
+    border: hidden;
+    border-radius: 5px;
+}
+
+.space-consoms{
+    font-size: 20px;
+}
 nav ul{
+    margin: 10px 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -13,9 +44,11 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     text-transform: capitalize;
+    color: white;
 }
 .profile{
     text-align: center;
+    margin-top: 100px;
     
 }
 .profile img{
@@ -24,7 +57,17 @@ nav ul li a{
 figcaption{
     text-align: center;
     text-align: justify;
+    margin:auto 12% ;
     
+}
+.figcap{
+margin-bottom: 0.78125rem;
+margin-top: 0;
+font-family: nyt-imperial,georgia,'times new roman',times,serif;
+font-size: 0.9rem;
+line-height: 1.3625rem;
+width: calc(100% - 40px);
+max-width: 700px;
 }
 .css-vp77d3{
     display: flex;
@@ -44,13 +87,19 @@ list-style-type: none;
 .css-w2r3 ul li a{
     text-decoration: none;
     margin-right: 15px;
-    color: #999;
-    padding: 10px 0;
-    width: 100%;
+    background: #eee;
+    color: black;
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+    border: 1px #eee solid;
+    border-radius: 100%;
+}
+.css-w2r3 ul li a:hover{
+    background: white;
 }
 .css-5353{
 display: flex;
-flex-direction: column;
 }
 
 .css-53u6y8 {
@@ -242,6 +291,10 @@ margin-right: 20px;
 }
 .css-vy7nt4 a{
     text-decoration: none;
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-size: 1.0rem;
+    font-weight: 400;
+    line-height: 1.375rem;
 }
 .css-vy7nt4::after{
     width: 0px;
@@ -273,6 +326,10 @@ margin-right: 20px;
     width: 300px;
     height: 200px;
 }
+.css-vy7nt3 a{
+    text-decoration: none;
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+}
 .editer-pick{
 margin: 20px auto;
 }
@@ -294,18 +351,128 @@ margin: 20px auto;
 #most-popular-section{
     margin-left: 30px;
 }
-.css-18cmw3s a{
-text-decoration: none;
+#most-popular-section .css-hd8liv{
+    border-bottom: 1px solid rgb(226, 226, 226);
+    padding: 15px 0px;
 }
 .css-18cmw3s{
-    margin: 20px auto;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    padding: 15px 0px;
 }
-@media(max-width:1024px){
-aside{
-    display: none;
-}
+.css-18cmw3s{
+    margin: 10px auto;
 
 }
+.css-18cmw3s a{
+    text-decoration: none;
+    color:rgb(18, 18, 18);
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.375rem;
+    
+}
+
+.nav-bar{
+margin: 30px 5%;
+}
+.nav-bar::before{
+        background-color: #fff;
+        border-bottom: 1px solid #e2e2e2;
+        border-top: 2px solid #e2e2e2;
+        content: '';
+        display: block;
+        height: 1px;
+        margin-top: 0;
+}
+.nav-header{
+display: flex;
+justify-content: space-between;
+margin: 10px auto;
+}
+.css-oylsik{
+    width: 200px;
+    height: 50px;
+}
+.nav-header a{
+    color: rgb(86, 123, 149);
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+}
+nav ul li h3{
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+nav ul li a{
+    display: block;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    line-height: 18px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.subscribe{
+    border-left: 1px solid rgb(226, 226, 226);
+    
+}
+.subscribe a,.sbscribe-1{
+    margin-left: 15px;
+    
+}
+.subscribe a h3{
+    text-transform: capitalize;
+}
+.css-r5ic95 {
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    margin-right: 7px;
+    vertical-align: middle;
+}
+.subscibe-header h3{
+display: inline;
+}
+footer{
+    margin: 40px auto;
+}
+#footer1::before{
+    content: "";
+
+    height: 1px;
+    background-color: #999;
+
+    margin: 5px 7%;
+    display: block;
+}
+footer ul{
+    display: flex;
+    margin: auto 7%;
+}
+footer ul li{
+    list-style-type: none;
+    margin-left: 15px;
+}
+footer ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    color: #666;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+}
+
 @media(min-width:680px){
     .css-5353,.css-xt80pu{
         margin-left: 5%;
@@ -353,3 +520,28 @@ aside{
                             }
                             
                             }
+                            @media(max-width:1024px){
+                                aside{
+                                    display: none;
+                                }}
+                                @media(min-width:1025px){
+                                    .css-5353{
+                                        display: flex;
+                                    }
+                                    aside{
+                                        margin: 100px 10%;
+                                    }
+                                    aside a{
+                                        text-decoration: none;
+                                        margin: 20px;
+                                        color: rgb(51, 51, 51);;
+                                    }
+                                    aside a h3{
+                                        font-family: nyt-franklin, helvetica, arial, sans-serif;
+                                        font-size: small;
+                                        margin-left: 15px;
+                                    }
+                                    .picks::after{
+                                        border-bottom: 1px solid black;
+                                    }
+                                }
